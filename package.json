@@ -1,0 +1,16 @@
+{
+  "name": "network-outage-reporter",
+  "version": "1.0.0",
+  "description": "A simple Africa's Talking SMS network outage reporter.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:tunnel": "node server.js --tunnel"
+  },
+  "dependencies": {
+    "africastalking": "^0.7.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "localtunnel": "^2.0.2"
+  }
+}
